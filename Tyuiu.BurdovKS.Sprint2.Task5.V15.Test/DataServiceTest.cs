@@ -16,13 +16,13 @@ namespace Tyuiu.BurdovKS.Sprint2.Task5.V15.Test
             DataService ds = new DataService();
 
 
-            Assert.AreEqual("Понедельник ", ds.FindDayName(1));
-            Assert.AreEqual("Вторник ", ds.FindDayName(2));
-            Assert.AreEqual("Среда ", ds.FindDayName(3));
-            Assert.AreEqual("Четверг ", ds.FindDayName(4));
-            Assert.AreEqual("Пятница ", ds.FindDayName(5));
-            Assert.AreEqual("Суббота ", ds.FindDayName(6));
-            Assert.AreEqual("Воскресенье ", ds.FindDayName(7));
+            Assert.AreEqual("Понедельник", ds.FindDayName(1));
+            Assert.AreEqual("Вторник", ds.FindDayName(2));
+            Assert.AreEqual("Среда", ds.FindDayName(3));
+            Assert.AreEqual("Четверг", ds.FindDayName(4));
+            Assert.AreEqual("Пятница", ds.FindDayName(5));
+            Assert.AreEqual("Суббота", ds.FindDayName(6));
+            Assert.AreEqual("Воскресенье", ds.FindDayName(7));
 
 
             Assert.ThrowsException<ArgumentException>(() =>

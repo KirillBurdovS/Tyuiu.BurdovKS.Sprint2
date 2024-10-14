@@ -29,35 +29,35 @@ namespace Tyuiu.BurdovKS.Sprint2.Task5.V15.Lib
             switch (dayOfWeek)
             {
                 case 1:
-                    res = "Понедельник ";
+                    res = "Понедельник";
                     break;
 
                 case 2:
-                    res = "Вторник ";
+                    res = "Вторник";
                     break;
 
                 case 3:
-                    res = "Среда ";
+                    res = "Среда";
                     break;
 
                 case 4:
-                    res = "Четверг ";
+                    res = "Четверг";
                     break;
 
                 case 5:
-                    res = "Пятница ";
+                    res = "Пятница";
                     break;
 
                 case 6:
-                    res = "Суббота ";
+                    res = "Суббота";
                     break;
 
                 case 7:
-                    res = "Воскресенье ";
+                    res = "Воскресенье";
                     break;
 
                 default:
-                    res = "Неизвестный день ";
+                    res = "Неизвестный день";
                     break;
                   
             }
